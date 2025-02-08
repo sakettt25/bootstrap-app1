@@ -1,0 +1,49 @@
+.listing-block {
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: white;
+    transition: background-color 0.3s ease-in-out;
+    color: black; /* Default text color */
+}
+
+.listing-block h5,
+.listing-block p {
+    color: black; /* Ensures all text inside the block is white */
+}
+
+.people-block {
+    border-color: rgb(218, 126, 218);
+}
+
+.people-block:hover {
+    background-color: rgb(218, 126, 218);
+    color: white;
+}
+
+.place-block {
+    border-color: rgb(163, 232, 163);
+}
+
+.place-block:hover {
+    background-color: rgb(163, 232, 163);
+    color: white;
+}
+
+.product-block {
+    border-color: rgb(236, 113, 113);
+}
+
+.product-block:hover {
+    background-color: rgb(236, 113, 113);
+    color: white;
+}
+
+.program-block {
+    border-color: lightblue;
+}
+
+.program-block:hover {
+    background-color: lightblue;
+    color: white;
+}
